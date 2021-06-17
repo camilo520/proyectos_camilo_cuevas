@@ -1,0 +1,7 @@
+En este proyecto se realizó una aplicación móvil para el sistema operativo Android mediante el entorno de desarrollo
+Android Studio, esta aplicación consistía en entregar diferentes servicios a la comunidad educativa de la UAO, debido 
+a inconvenientes por causas del Covid-19, en la aplicación se podían crear espacios de clases virtuales o presenciales, 
+tomar la asistencia de manera virtual con la ayuda de un código QR, consultar la ubicación exacta del salón de clase 
+en caso de que fuera presencial la clase, la aplicación admitía la creación de usuarios como docente, estudiante 
+y administrador de manera rápida y eficiente, gracias a que la aplicación estaba integrada con el servicio de 
+Firebase de Google, el cual permitirá realizar el CRUD algunos de los datos que manejaba la aplicación.

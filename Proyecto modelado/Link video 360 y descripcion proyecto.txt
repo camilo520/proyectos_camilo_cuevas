@@ -1,0 +1,8 @@
+En este proyecto se realizó el entorno 3D del taller de trabajo de Tadashi, personaje de la película Big Hero 6, 
+para la realización de este proyecto se tuvieron que crear todas las herramientas, objetos y elementos 3D que integraban
+la escena original de la película. Todo el entorno con sus objetos se creó en el software Autodesk Maya y algunas texturas
+se crearon en el software Substance Painter.
+
+Link de YouTube de video 360 para el proyecto final de la asignatura Modelado 3D
+
+https://youtu.be/NQbbdcVMxrw

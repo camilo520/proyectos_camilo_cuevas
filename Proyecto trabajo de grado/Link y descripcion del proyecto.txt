@@ -1,0 +1,9 @@
+En este proyecto, que es mi trabajo de grado, se realizó una simulación de una ciudad inteligente, con la ayuda del
+motor Unity3D para la creación de la ciudad virtual y todas sus funciones. Los datos con los que el usuario juega
+en la ciudad virtual, son desplegados en una página web con el servicio de AWS, así el usuario podrá ver los datos
+de los sensores mediante un dashboard y según esos datos tomara decisiones en el simulador en Unity, para así poder 
+avanzar entre seis sectores ya definidos.
+
+Link de YouTube del video de la navegacion por el simulador de ciudad inteligente
+
+https://youtu.be/skkUuJWQDm0

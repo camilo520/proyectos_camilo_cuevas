@@ -1,0 +1,9 @@
+En este proyecto se desarrolló una aplicación en Java, que consistía en una tienda virtual de elementos Geek, 
+en la que personas podían crear tiendas virtuales y poner a la venta los artículos que tuvieran a su disposición, 
+al igual contaba con un apartado del cliente para que pudieran adquirir algún producto de las tiendas disponibles,
+y por ultimo un apartado administrador que es el encargado de aceptar las solicitudes de creación de tiendas y nuevos
+perfiles de usuarios.
+
+Este proyecto se hizo en el lenguaje Java, mediante el entorno de desarrollo NetBeans, que ayudo a la realización de las 
+interfaces de la aplicación. Por último, la aplicación también permitía una conexión a una base de datos de MySQL, en la 
+que quedaban registradas las tiendas, productos y usuarios que habían en la aplicación.

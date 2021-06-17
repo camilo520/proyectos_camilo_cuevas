@@ -1,0 +1,14 @@
+En este proyecto se realizó una página web para suplir las dificultades que puede presentar tanto pacientes como
+doctores al querer realizar una cita presencial, por esta razón mediante la página web realizada, el doctor podía
+crear una cita de manera virtual con todos los datos necesarios para la cita y posteriormente enviar esta solicitud
+de cita a un paciente para que él pueda aceptarla y quede agendad con éxito. La aplicación permite la creación de
+los dos usuarios, doctores y pacientes.
+
+Link de videos sobre la navegación por la página web "Web Medical", propuesta de proyecto final de la asignatura
+Desarrollo de Experiencias Multimedia para la Web, 
+
+https://youtu.be/2CVc_V9L-8Y
+
+https://youtu.be/GJAEKXbHtOk
+
+https://youtu.be/apFCxzBBKo0
