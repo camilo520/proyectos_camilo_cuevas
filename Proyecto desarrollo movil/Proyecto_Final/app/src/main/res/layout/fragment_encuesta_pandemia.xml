@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragments"
+    tools:context=".ui.slideshow.encuestaPandemia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_encuesta_pand"
+        android:layout_width="321dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-6dp"
+        android:layout_y="50dp"
+        android:text="Encuesta Covid-19"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre usuario:"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_usuario_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo:"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_correo_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono:"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/edit_telefono_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Presenta alguno de los siguientes sintomas?"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_fiebre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiebre" />
+
+    <CheckBox
+        android:id="@+id/checkBox_garganta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolor de garganta" />
+
+    <CheckBox
+        android:id="@+id/checkBox_congestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congestion nasal" />
+
+    <CheckBox
+        android:id="@+id/checkBox_tos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tos" />
+
+    <CheckBox
+        android:id="@+id/checkBox_respirar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dificultad para respirar" />
+
+    <CheckBox
+        android:id="@+id/checkBox_fatiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fatiga" />
+
+    <CheckBox
+        android:id="@+id/checkBox_escalofrios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escalofrios" />
+
+    <CheckBox
+        android:id="@+id/checkBox_muscular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolor muscular" />
+
+    <CheckBox
+        android:id="@+id/checkBox_ninguno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ninguno de los anteriores" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Como se encuentra su temperatura?"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_temperatura_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Que tipo de usuario eres?" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RadioButton
+            android:id="@+id/radio_estudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estudiante" />
+
+        <RadioButton
+            android:id="@+id/radio_profesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profesor" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/boton_enviar_encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar encuesta"
+        android:background="@drawable/custom_button_fragments"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+</AbsoluteLayout>

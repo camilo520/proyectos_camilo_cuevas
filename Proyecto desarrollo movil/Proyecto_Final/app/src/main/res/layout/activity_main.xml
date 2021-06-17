@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondo_menus">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:layout_x="-3dp"
+        android:layout_y="0dp"
+        android:gravity="center"
+        android:text="¿QUE USUARIO ERES?"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/menu_salir"
+        android:layout_width="121dp"
+        android:layout_height="160dp"
+        android:layout_x="213dp"
+        android:layout_y="317dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/exit" />
+
+    <ImageButton
+        android:id="@+id/menu_administrador"
+        android:layout_width="121dp"
+        android:layout_height="160dp"
+        android:layout_x="33dp"
+        android:layout_y="316dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/admin" />
+
+    <ImageButton
+        android:id="@+id/menu_profesores"
+        android:layout_width="121dp"
+        android:layout_height="160dp"
+        android:layout_x="33dp"
+        android:layout_y="97dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/teacher" />
+
+    <ImageButton
+        android:id="@+id/menu_estudiantes"
+        android:layout_width="121dp"
+        android:layout_height="160dp"
+        android:layout_x="213dp"
+        android:layout_y="93dp"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/student" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="68dp"
+        android:text="Profesor"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="291dp"
+        android:text="Administrador"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="233dp"
+        android:layout_y="70dp"
+        android:text="Estudiante"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="250dp"
+        android:layout_y="291dp"
+        android:text="Salir"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>

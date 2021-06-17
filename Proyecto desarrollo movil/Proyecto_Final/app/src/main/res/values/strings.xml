@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Proyecto_Final</string>
+    <string name="title_activity_menu__todo">Menu_Todo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="menu_encuesta">Encuesta Pandemia</string>
+    <string name="menu_administrador_estudiantes">Administrar Estudiantes</string>
+    <string name="menu_administrador_profesores">Administrar Profesores</string>
+    <string name="menu_administrador_cursos">Administrar Cursos</string>
+    <string name="menu_administrador_salon">Administrar Espacios</string>
+    <string name="menu_estudiantes_asistenciaqr">Asistentica QR</string>
+    <string name="menu_estudiantes_ubicacionclase">Ubicacion Salon</string>
+    <string name="menu_estudiantes_conectarweb">Conectar Streaming</string>
+    <string name="menu_estudiantes_asistencias">Asistencia</string>
+    <string name="menu_profesores_streaming">Clase virtual</string>
+    <string name="menu_profesores_cursos">Cursos y Aulas</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
