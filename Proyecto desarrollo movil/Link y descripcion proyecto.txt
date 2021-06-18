@@ -5,3 +5,7 @@ tomar la asistencia de manera virtual con la ayuda de un código QR, consultar l
 en caso de que fuera presencial la clase, la aplicación admitía la creación de usuarios como docente, estudiante 
 y administrador de manera rápida y eficiente, gracias a que la aplicación estaba integrada con el servicio de 
 Firebase de Google, el cual permitirá realizar el CRUD algunos de los datos que manejaba la aplicación.
+
+Link de YouTube para ver el video de la navegacion por la aplicacion movil
+
+https://youtu.be/jZKEIdKEcL4
